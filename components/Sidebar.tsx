@@ -19,14 +19,14 @@ import {
 } from 'lucide-react'
 
 const navItems = [
-  { href: './', label: '概览', icon: LayoutDashboard },
-  { href: './entry/', label: '每日录入', icon: PlusCircle },
-  { href: './daily-supplements/', label: '今日服用', icon: Calendar },
-  { href: './supplements-library/', label: '补剂库', icon: Pill },
-  { href: './history/', label: '历史记录', icon: History },
-  { href: './reports/', label: '体检报告', icon: FileText },
-  { href: './ai-insights/', label: 'AI 指导', icon: Sparkles },
-  { href: './profile/', label: '个人资料', icon: User },
+  { href: '/index.html', label: '概览', icon: LayoutDashboard },
+  { href: '/entry/index.html', label: '每日录入', icon: PlusCircle },
+  { href: '/daily-supplements/index.html', label: '今日服用', icon: Calendar },
+  { href: '/supplements-library/index.html', label: '补剂库', icon: Pill },
+  { href: '/history/index.html', label: '历史记录', icon: History },
+  { href: '/reports/index.html', label: '体检报告', icon: FileText },
+  { href: '/ai-insights/index.html', label: 'AI 指导', icon: Sparkles },
+  { href: '/profile/index.html', label: '个人资料', icon: User },
 ]
 
 export function Sidebar() {
@@ -65,7 +65,7 @@ export function Sidebar() {
       `}>
         {/* Logo */}
         <div className="p-5 border-b border-gray-100">
-          <a href="./" className="flex items-center gap-3">
+          <a href="/index.html" className="flex items-center gap-3">
             <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center shadow-lg">
               <Heart className="w-5 h-5 text-white" />
             </div>
