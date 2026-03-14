@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/entry", "destination": "/entry/index.html" },
+    { "source": "/history", "destination": "/history/index.html" },
+    { "source": "/profile", "destination": "/profile/index.html" },
+    { "source": "/daily-supplements", "destination": "/daily-supplements/index.html" },
+    { "source": "/supplements-library", "destination": "/supplements-library/index.html" },
+    { "source": "/reports", "destination": "/reports/index.html" },
+    { "source": "/ai-insights", "destination": "/ai-insights/index.html" },
+    { "source": "/import", "destination": "/import/index.html" },
+    { "source": "/import-supplements", "destination": "/import-supplements/index.html" }
+  ],
+  "trailingSlash": true
+}
